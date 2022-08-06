@@ -279,6 +279,15 @@ def train_social(net,data,epochs=10,lr=0.01):  #학습함수
             print("Epoch {}/{}, Train_Loss: {:.4f}, Train_Accuracy: {:.4f}, Val_Accuracy: {:.4f}, Test_Accuracy: {:.4f}"
                                .format(ep+1,epochs, loss.item(), train_accuracy, val_accuracy,  test_accuracy))
             best_accuracy=val_accuracy
+         plt.plot(list(map(float,train_losses))) 
+    plt.plot(list(map(float,val_losses)))
+    plt.plot(list(map(float,test_losses)))
+    plt.show()
+
+    plt.plot(list(map(float,train_accuracies)))
+    plt.plot(list(map(float,val_accuracies)))
+    plt.plot(list(map(float,test_accuracies)))
+    plt.show()
 
 
 
