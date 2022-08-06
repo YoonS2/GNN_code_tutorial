@@ -21,7 +21,7 @@ from torch_geometric.nn import GCNConv
 ###---------------node feature로는 깃헙 이용자들의 별표시한 repository, 사는곳, 메일주소임.
 
 
-folder="C:/Users/ydb80/Desktop/GNN/GNN_EX2_data"
+folder="C:/Users/ydb80/Desktop/GNN/GNN_EX2_data"  ##데이터 
 with open(folder+"/musae_git_features.json") as json_data:
         data_raw = json.load(json_data)
 edges=pd.read_csv(folder+"/musae_git_edges.csv")
