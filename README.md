@@ -3,7 +3,7 @@
 
 Code source:https://www.kaggle.com/code/awadelrahman/tutorial-graph-neural-networks-on-social-networks/notebook
 
-Data sourcr : https://github.com/benedekrozemberczki/MUSAE  #git~data
+Data source : https://github.com/benedekrozemberczki/MUSAE  #git~data
 
 The code has been tested running under Python 3.8.8. The required packages are as follows:
 
