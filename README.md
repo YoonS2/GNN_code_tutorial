@@ -1,6 +1,5 @@
-# GNN_code_tutorial
+# GNN_tutorial_code
 
-GNN tutorial 따라해보기
 
 code source:https://www.kaggle.com/code/awadelrahman/tutorial-graph-neural-networks-on-social-networks/notebook
 
@@ -13,6 +12,7 @@ numpy == 1.21.5
 torch_geometric == 2.0.4
 
 
+## GNN tutorial 따라해보기
 
 GNN 모델링 과정을 이해하기 위해 tutorial을 진행해봤다.
 
